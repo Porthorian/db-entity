@@ -4,8 +4,63 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59052c48bc4689d717b318690d68ffe4",
-    "packages": [],
+    "content-hash": "2ec0eae84eceede84394c47daebe8efd",
+    "packages": [
+        {
+            "name": "porthorian/pdo-wrapper",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Porthorian/pdo-wrapper.git",
+                "reference": "c63ab3d80ced9767fcf3d302d575c3f55becc18e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Porthorian/pdo-wrapper/zipball/c63ab3d80ced9767fcf3d302d575c3f55becc18e",
+                "reference": "c63ab3d80ced9767fcf3d302d575c3f55becc18e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "ext-pdo_mysql": "*",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "slevomat/coding-standard": "^7.2",
+                "squizlabs/php_codesniffer": "^3.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Porthorian\\PDOWrapper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vinnie Marone",
+                    "email": "vinnie.marone35@gmail.com"
+                }
+            ],
+            "description": "A PDO Database wrapper for ease of use.",
+            "keywords": [
+                "database",
+                "database-iterator",
+                "database-pdo",
+                "pdo-wrapper",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/Porthorian/pdo-wrapper/issues",
+                "source": "https://github.com/Porthorian/pdo-wrapper/tree/v1.0.1"
+            },
+            "time": "2022-08-24T19:48:29+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
