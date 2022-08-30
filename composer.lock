@@ -54,16 +54,16 @@
         },
         {
             "name": "porthorian/pdo-wrapper",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Porthorian/pdo-wrapper.git",
-                "reference": "621ff644e1b92dc2b342878b607f50747cc0a12d"
+                "reference": "ec6254edd98aae646a422ae009857a6975523067"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Porthorian/pdo-wrapper/zipball/621ff644e1b92dc2b342878b607f50747cc0a12d",
-                "reference": "621ff644e1b92dc2b342878b607f50747cc0a12d",
+                "url": "https://api.github.com/repos/Porthorian/pdo-wrapper/zipball/ec6254edd98aae646a422ae009857a6975523067",
+                "reference": "ec6254edd98aae646a422ae009857a6975523067",
                 "shasum": ""
             },
             "require": {
@@ -102,9 +102,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Porthorian/pdo-wrapper/issues",
-                "source": "https://github.com/Porthorian/pdo-wrapper/tree/v1.2.0"
+                "source": "https://github.com/Porthorian/pdo-wrapper/tree/v1.2.1"
             },
-            "time": "2022-08-30T03:09:18+00:00"
+            "time": "2022-08-30T18:54:02+00:00"
         },
         {
             "name": "porthorian/utility",
