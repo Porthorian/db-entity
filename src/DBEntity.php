@@ -45,6 +45,8 @@ abstract class DBEntity extends Entity
 	 */
 	public function store() : ModelInterface
 	{
+		$this->initializeModelIfNotSet();
+
 		$model = $this->getModel();
 
 		try
@@ -78,6 +80,8 @@ abstract class DBEntity extends Entity
 	 */
 	public function update(array $params = []) : void
 	{
+		$this->initializeModelIfNotSet();
+
 		$model = $this->getModel();
 		if (!$model->isInitialized())
 		{
@@ -102,7 +106,7 @@ abstract class DBEntity extends Entity
 		}
 		catch (DatabaseException $e)
 		{
-			throw new EntityException('Failed to update the Model: '.get_class($model).' with where clause: '.var_export($where, true), $e);
+			throw new EntityException('Failed to update the model '.get_class($model).' with where clause: '.var_export($where, true), $e);
 		}
 
 		if ($this->useEntityCache())
@@ -118,6 +122,8 @@ abstract class DBEntity extends Entity
 	 */
 	public function delete() : void
 	{
+		$this->initializeModelIfNotSet();
+
 		$model = $this->getModel();
 		if (!$model->isInitialized())
 		{
@@ -131,7 +137,7 @@ abstract class DBEntity extends Entity
 		}
 		catch (DatabaseException $e)
 		{
-			throw new EntityException('Failed to delete the Model: '.get_class($model).' with where clause: '.var_export($where, true), $e);
+			throw new EntityException('Failed to delete the model '.get_class($model).' with where clause: '.var_export($where, true), $e);
 		}
 
 		if ($this->useEntityCache())
@@ -149,10 +155,14 @@ abstract class DBEntity extends Entity
 	 */
 	public function find(string|int $pk_value) : ModelInterface
 	{
+		$this->initializeModelIfNotSet();
+
 		if ($this->useEntityCache() && self::hasCacheItem($this->getCacheKey($pk_value)))
 		{
 			return self::getCacheItem($this->getCacheKey($pk_value));
 		}
+
+		$model = $this->getModel();
 
 		try
 		{
@@ -168,7 +178,6 @@ abstract class DBEntity extends Entity
 
 		$this->setModelProperties($results);
 
-		$model = $this->getModel();
 		if ($this->useEntityCache())
 		{
 			self::setCacheItem($this->getCacheKey(), $model);
@@ -194,5 +203,16 @@ abstract class DBEntity extends Entity
 		}
 
 		$this->setModel($model);
+	}
+
+	private function initializeModelIfNotSet() : void
+	{
+		if (isset($this->model))
+		{
+			return;
+		}
+
+		$path = $this->getModelPath();
+		$this->setModel(new $path);
 	}
 }
