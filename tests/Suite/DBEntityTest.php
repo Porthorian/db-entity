@@ -95,7 +95,7 @@ class DBEntityTest extends TestCase
 		$this->assertEquals($uncached_model, $entity->find(1));
 
 		$this->expectException(EntityException::class);
-		$model = (new TestFailedEntity())->find(1);
+		(new TestFailedEntity())->find(1);
 	}
 
 	/**
