@@ -53,7 +53,7 @@ abstract class DBEntity extends Entity
 		}
 		catch (DatabaseException $e)
 		{
-			throw new EntityException('Unable to insert the model '.get_class($model).' with values '.var_export($model->toArray()), $e);
+			throw new EntityException('Unable to insert the model '.get_class($model).' with values '.var_export($model->toArray(), true), $e);
 		}
 
 		$model->setPrimaryKey($last_inserted_id);
