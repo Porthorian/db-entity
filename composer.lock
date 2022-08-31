@@ -8,7 +8,7 @@
     "packages": [
         {
             "name": "porthorian/entity-orm",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Porthorian/entity-orm.git",
@@ -48,7 +48,7 @@
             "description": "A simple object relation model library",
             "support": {
                 "issues": "https://github.com/Porthorian/entity-orm/issues",
-                "source": "https://github.com/Porthorian/entity-orm/tree/v0.1.0"
+                "source": "https://github.com/Porthorian/entity-orm/tree/v0.1.1"
             },
             "time": "2022-08-30T18:08:03+00:00"
         },
