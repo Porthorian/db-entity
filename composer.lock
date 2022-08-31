@@ -8,21 +8,21 @@
     "packages": [
         {
             "name": "porthorian/entity-orm",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Porthorian/entity-orm.git",
-                "reference": "7f85e2fe13b6d5bbc08d9047f04dbde9ca04c09e"
+                "reference": "e79a3816c8a83bfc7ec2d31145a8280b7fe36d75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Porthorian/entity-orm/zipball/7f85e2fe13b6d5bbc08d9047f04dbde9ca04c09e",
-                "reference": "7f85e2fe13b6d5bbc08d9047f04dbde9ca04c09e",
+                "url": "https://api.github.com/repos/Porthorian/entity-orm/zipball/e79a3816c8a83bfc7ec2d31145a8280b7fe36d75",
+                "reference": "e79a3816c8a83bfc7ec2d31145a8280b7fe36d75",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.0",
-                "porthorian/utility": "^0.1"
+                "porthorian/utility": "^0.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5",
@@ -48,9 +48,9 @@
             "description": "A simple object relation model library",
             "support": {
                 "issues": "https://github.com/Porthorian/entity-orm/issues",
-                "source": "https://github.com/Porthorian/entity-orm/tree/v0.1.1"
+                "source": "https://github.com/Porthorian/entity-orm/tree/v0.1.2"
             },
-            "time": "2022-08-30T18:08:03+00:00"
+            "time": "2022-08-31T23:37:05+00:00"
         },
         {
             "name": "porthorian/pdo-wrapper",
@@ -108,16 +108,16 @@
         },
         {
             "name": "porthorian/utility",
-            "version": "v0.1.0",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Porthorian/utility.git",
-                "reference": "bf9c0c9feff39b087480e7908901af677f5eb54d"
+                "reference": "d168284f3683028645a5681070277d3b560daffd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Porthorian/utility/zipball/bf9c0c9feff39b087480e7908901af677f5eb54d",
-                "reference": "bf9c0c9feff39b087480e7908901af677f5eb54d",
+                "url": "https://api.github.com/repos/Porthorian/utility/zipball/d168284f3683028645a5681070277d3b560daffd",
+                "reference": "d168284f3683028645a5681070277d3b560daffd",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "description": "Various php utility classes that are useful.",
             "support": {
                 "issues": "https://github.com/Porthorian/utility/issues",
-                "source": "https://github.com/Porthorian/utility/tree/v0.1.0"
+                "source": "https://github.com/Porthorian/utility/tree/v0.2.0"
             },
-            "time": "2022-08-29T05:00:53+00:00"
+            "time": "2022-08-31T23:26:12+00:00"
         }
     ],
     "packages-dev": [
