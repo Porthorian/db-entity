@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1147e92291d7c9da075ac618fc96b01c",
+    "content-hash": "3ac8c64c9e5df702b0928901c377f7c1",
     "packages": [
         {
             "name": "porthorian/entity-orm",
-            "version": "v0.1.2",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Porthorian/entity-orm.git",
-                "reference": "e79a3816c8a83bfc7ec2d31145a8280b7fe36d75"
+                "reference": "b806413b5d905d57b2b17317832c926a6116605a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Porthorian/entity-orm/zipball/e79a3816c8a83bfc7ec2d31145a8280b7fe36d75",
-                "reference": "e79a3816c8a83bfc7ec2d31145a8280b7fe36d75",
+                "url": "https://api.github.com/repos/Porthorian/entity-orm/zipball/b806413b5d905d57b2b17317832c926a6116605a",
+                "reference": "b806413b5d905d57b2b17317832c926a6116605a",
                 "shasum": ""
             },
             "require": {
@@ -48,9 +48,9 @@
             "description": "A simple object relation model library",
             "support": {
                 "issues": "https://github.com/Porthorian/entity-orm/issues",
-                "source": "https://github.com/Porthorian/entity-orm/tree/v0.1.2"
+                "source": "https://github.com/Porthorian/entity-orm/tree/v0.2.0"
             },
-            "time": "2022-08-31T23:37:05+00:00"
+            "time": "2022-09-12T20:04:42+00:00"
         },
         {
             "name": "porthorian/pdo-wrapper",
