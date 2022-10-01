@@ -13,7 +13,7 @@
     "require": {
         "php": "^8.0",
         "porthorian/pdo-wrapper": "^1.2",
-        "porthorian/entity-orm": "^0.3"
+        "porthorian/entity-orm": "^0.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
