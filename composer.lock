@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f45ad0f74ba7377390bfa9c0ecc12ba8",
+    "content-hash": "b863552e95a22d144d358672470e7f2f",
     "packages": [
         {
             "name": "porthorian/entity-orm",
@@ -54,16 +54,16 @@
         },
         {
             "name": "porthorian/pdo-wrapper",
-            "version": "v1.2.2",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Porthorian/pdo-wrapper.git",
-                "reference": "be4c416b86a48ed648b2f8f6fe3518f6b949f52a"
+                "reference": "94f77334fc3f8ccb69f9e4c32df0dc21daf20556"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Porthorian/pdo-wrapper/zipball/be4c416b86a48ed648b2f8f6fe3518f6b949f52a",
-                "reference": "be4c416b86a48ed648b2f8f6fe3518f6b949f52a",
+                "url": "https://api.github.com/repos/Porthorian/pdo-wrapper/zipball/94f77334fc3f8ccb69f9e4c32df0dc21daf20556",
+                "reference": "94f77334fc3f8ccb69f9e4c32df0dc21daf20556",
                 "shasum": ""
             },
             "require": {
@@ -102,9 +102,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Porthorian/pdo-wrapper/issues",
-                "source": "https://github.com/Porthorian/pdo-wrapper/tree/v1.2.2"
+                "source": "https://github.com/Porthorian/pdo-wrapper/tree/v2.0.0"
             },
-            "time": "2022-09-05T08:08:11+00:00"
+            "time": "2022-10-04T14:39:17+00:00"
         },
         {
             "name": "porthorian/utility",

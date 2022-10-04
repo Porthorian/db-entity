@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^8.0",
-        "porthorian/pdo-wrapper": "^1.2",
+        "porthorian/pdo-wrapper": "^2.0",
         "porthorian/entity-orm": "^0.4"
     },
     "require-dev": {
