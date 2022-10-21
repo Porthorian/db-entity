@@ -80,6 +80,11 @@ abstract class DBEntity extends Entity
 	 */
 	public function update(array $params = []) : void
 	{
+		if (empty($params))
+		{
+			throw new InvalidArgumentException('params can not be empty to update entity.');
+		}
+
 		$this->initializeModelIfNotSet();
 
 		$model = $this->getModel();
