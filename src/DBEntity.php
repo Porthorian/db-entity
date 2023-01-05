@@ -210,7 +210,7 @@ abstract class DBEntity extends Entity
 		$this->setModel($model);
 	}
 
-	private function initializeModelIfNotSet() : void
+	protected function initializeModelIfNotSet() : void
 	{
 		if (isset($this->model))
 		{
